@@ -1,1 +1,9 @@
 Bundle-Version: 0.0.0.${tstamp}
+-buildpath:  \
+	de.memory.gui;version=latest,\
+	de.memory.api;version=latest,\
+	biz.aQute.bnd.annotation
+Export-Package:  \
+	de.memory.gui.player2
+Service-Component:  \
+	*
